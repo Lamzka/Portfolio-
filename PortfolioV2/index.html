@@ -4,78 +4,113 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Raymond Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+          crossorigin="anonymous">
+
+          <link rel="stylesheet" href="css/styles.css">
   </head>
   
   <body>
-    
 
-    <div class="container text-center my-3 ">
-
-        <h1>Raymond Besson</h1>
-
-        <h1 class="lead-text">
-            <span class="text"></span><span class="static-text"> Developer</span>
-        </p>
-
+    <!-- Header Section -->
+    <div class="container text-center my-3">
+      <h1>Raymond Besson</h1>
+      <h1 class="lead-text">
+        <span class="text"></span><span class="static-text"> Developer</span>
+      </h1>
     </div>
 
-
-    <div class="container"><!-- Navbar -->
-     <nav> 
-        <ul class="nav nav-tabs justify-content-center">
-
-            <li class="nav-item">
-                <a href="#" class="nav-link active">Home</a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">Projects</a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">About me</a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
-            </li>
-                
-             
+    <!-- Navbar Section -->
+    <div class="container">
+      <nav>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
         </ul>
-    </nav>
- </div>
+      </nav>
+    </div>
 
- <div class="container my-3">
- <h2>Hallo, Welcome to my Portfolio!</h2>
- <strong>I am Raymond Besson and this is what i'm capable of</strong>
- </div>
+    <!-- Introduction Section -->
+    <div class="container my-3">
+      <h2>Hallo, Welcome to my Portfolio!</h2>
+      <strong>I am Raymond Besson and this is what I'm capable of</strong>
+    </div>
 
-<div class="container">
+ <!-- Skills Section -->
+<div class="container my-5">
     <div class="row">
-    <h4>My Skills</h4>
-    <div class="card">
-   <ul>
+        <!-- First Card -->
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">My Skills</h5>
+                    <div> ---- </div>
+                    <ul class="list-unstyled">
+                        <li class="card-text mb-2">Unity Engine</li>
+                        <li class="card-text mb-2">Godot Engine</li>
+                        <li class="card-text mb-2">C#</li>
+                        <li class="card-text mb-2">C++</li>
+                        <li class="card-text mb-2">GDScript</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-  <li>Unity Engine</li>
-  <li>Godot Engine</li>
-  <li>C#</li>
-  <li>C++</li>
-  <li>GDScript</li>
-  
-  
-</ul>
+        <!-- Second Card -->
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">uhh lorem or something</h5>
+                    <div> ---- </div>
+                    <ul class="list-unstyled">
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Card -->
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">uhh lorem or something</h5>
+                    <div> ---- </div>
+                    <ul class="list-unstyled">
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                        <li class="card-text mb-2">uhh lorem or something</li>
+                        <li class="card-text mb-2">uhh lorem or somethingt</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-</div>
 
 
-
-
-
-
+    <!-- Scripts -->
     <script src="js/scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+            crossorigin="anonymous"></script>
+
   </body>
 </html>
