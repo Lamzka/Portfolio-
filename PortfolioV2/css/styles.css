@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1d1d1d;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.lead-text {
+  font-size: 40px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+
